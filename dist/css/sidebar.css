@@ -1,0 +1,17 @@
+.nav-link {
+    transition: all 0.3s ease; /* Transisi yang halus */
+    color: gray; /* Warna teks awal (abu-abu) */
+}
+
+.nav-link:hover {
+    color: rgb(0, 110, 255)!important; /* Warna teks saat dihover */
+}
+
+.nav-icon {
+    transition: all 0.3s ease; /* Transisi yang halus untuk ikon */
+    color: gray; /* Warna awal untuk ikon (abu-abu) */
+}
+
+.nav-link:hover .nav-icon {
+    color: orange !important; /* Warna ikon saat dihover */
+}
